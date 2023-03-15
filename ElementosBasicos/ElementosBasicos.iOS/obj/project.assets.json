@@ -1069,11 +1069,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Documents\\Xamarin\\ElementosBasicos\\ElementosBasicos.iOS\\ElementosBasicos.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Documents\\GitHub\\ElementosXamarin\\ElementosBasicos\\ElementosBasicos.iOS\\ElementosBasicos.iOS.csproj",
       "projectName": "ElementosBasicos.iOS",
-      "projectPath": "C:\\Users\\Usuario\\Documents\\Xamarin\\ElementosBasicos\\ElementosBasicos.iOS\\ElementosBasicos.iOS.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Documents\\GitHub\\ElementosXamarin\\ElementosBasicos\\ElementosBasicos.iOS\\ElementosBasicos.iOS.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Documents\\Xamarin\\ElementosBasicos\\ElementosBasicos.iOS\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Documents\\GitHub\\ElementosXamarin\\ElementosBasicos\\ElementosBasicos.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1096,8 +1096,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Usuario\\Documents\\Xamarin\\ElementosBasicos\\ElementosBasicos\\ElementosBasicos.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Documents\\Xamarin\\ElementosBasicos\\ElementosBasicos\\ElementosBasicos.csproj"
+            "C:\\Users\\Usuario\\Documents\\GitHub\\ElementosXamarin\\ElementosBasicos\\ElementosBasicos\\ElementosBasicos.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Documents\\GitHub\\ElementosXamarin\\ElementosBasicos\\ElementosBasicos\\ElementosBasicos.csproj"
             }
           }
         }

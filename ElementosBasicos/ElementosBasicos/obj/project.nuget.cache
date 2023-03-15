@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nweWONq6VsO3mOCZv7tWM4SVdXI2KYGcg96GrcnUVzLPNIwcbARC0jZFLq5BBeVo/dKfiudE2w6sK+Jps3APJQ==",
+  "dgSpecHash": "6dTyDE7OeLV6Cuu7TqaNnWZPeAbiIXYsV3kJBx364426kJmoxF9lPun+oQaKXzUDEgju0jPeYMN60zIf1cLmWQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Documents\\Xamarin\\ElementosBasicos\\ElementosBasicos\\ElementosBasicos.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Documents\\GitHub\\ElementosXamarin\\ElementosBasicos\\ElementosBasicos\\ElementosBasicos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

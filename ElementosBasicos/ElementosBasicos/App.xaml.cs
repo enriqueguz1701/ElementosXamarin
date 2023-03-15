@@ -11,7 +11,7 @@ namespace ElementosBasicos
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MenuPrincipal());
+            MainPage = new NavigationPage(new Tarjeta());
         }
 
         protected override void OnStart()
