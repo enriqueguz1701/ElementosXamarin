@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "4A1wix4Li4kyvN1+PBwLWGdUF3RHEdbacnmmJ0ZBN4tEel2lQwfKhZ0LBLaietxQUQOL+L7zOAyabva2XmYe3Q==",
+  "dgSpecHash": "o60T5XP0OtSUI0ZxPp1gA/GqQgVpVogfg9F1ThfRzJ85/WxqdrObH3TN/5bLITwF+nlRK8qddjwAB+e2xtl04A==",
   "success": true,
   "projectFilePath": "C:\\Users\\milag\\Documents\\GitHub\\ElementosXamarin\\ElementosBasicos\\ElementosBasicos.iOS\\ElementosBasicos.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\milag\\.nuget\\packages\\rg.plugins.popup\\2.1.0\\rg.plugins.popup.2.1.0.nupkg.sha512",
     "C:\\Users\\milag\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\milag\\.nuget\\packages\\xam.plugins.forms.imagecircle\\3.0.0.5\\xam.plugins.forms.imagecircle.3.0.0.5.nupkg.sha512",
     "C:\\Users\\milag\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\milag\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],

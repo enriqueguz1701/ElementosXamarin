@@ -5,6 +5,8 @@ public class MonoPackageManager_Resources {
 		"ElementosBasicos.Android.dll",
 		"ElementosBasicos.dll",
 		"FormsViewGroup.dll",
+		"ImageCircle.Forms.Plugin.dll",
+		"Rg.Plugins.Popup.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",
 		"Xamarin.AndroidX.Annotation.Experimental.dll",

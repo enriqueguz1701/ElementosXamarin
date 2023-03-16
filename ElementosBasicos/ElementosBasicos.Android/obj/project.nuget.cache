@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "x6fxbrabIIl5rt1pLmXdd+W/kllaYbBhs3Q5Kem71/nNkwMS3PNgXjuEByA/FBGdh+A3EJvOmHNaK/yy7o+zHw==",
+  "dgSpecHash": "ZaKZ4Cs0p1kG5oscPOxnIOLPCRxHPRjerWk42/B5Gsf2KGt0YSBzqqKhyDBSTRM6X+W88r/vsfk0fgq2QJQ35g==",
   "success": true,
   "projectFilePath": "C:\\Users\\milag\\Documents\\GitHub\\ElementosXamarin\\ElementosBasicos\\ElementosBasicos.Android\\ElementosBasicos.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\milag\\.nuget\\packages\\rg.plugins.popup\\2.1.0\\rg.plugins.popup.2.1.0.nupkg.sha512",
     "C:\\Users\\milag\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\milag\\.nuget\\packages\\xam.plugins.forms.imagecircle\\3.0.0.5\\xam.plugins.forms.imagecircle.3.0.0.5.nupkg.sha512",
     "C:\\Users\\milag\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",
     "C:\\Users\\milag\\.nuget\\packages\\xamarin.androidx.annotation\\1.2.0.1\\xamarin.androidx.annotation.1.2.0.1.nupkg.sha512",
     "C:\\Users\\milag\\.nuget\\packages\\xamarin.androidx.annotation.experimental\\1.1.0.1\\xamarin.androidx.annotation.experimental.1.1.0.1.nupkg.sha512",

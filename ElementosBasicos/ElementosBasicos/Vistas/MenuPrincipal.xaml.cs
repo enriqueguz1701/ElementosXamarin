@@ -13,27 +13,53 @@ namespace ElementosBasicos.Vistas
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MenuPrincipal : ContentPage
     {
-        public IList<MComidas> Comidas { get; private set; }
+        public IList<MComidas> Opciones { get; private set; }
         public MenuPrincipal()
         {
             InitializeComponent();
-            Comidas = new List<MComidas>();
-            Comidas.Add(new MComidas
+            Opciones = new List<MComidas>();
+            Opciones.Add(new MComidas
             {
-                Nombre = "Tortilla",
-                Imagen = "angulo.png"
+                Nombre = "Imagen Circular",
+                Imagen = "circulo.png"
             });
-            Comidas.Add(new MComidas
+            Opciones.Add(new MComidas
             {
-                Nombre = "Patatas bravas",
-                Imagen = "angulo.png"
+                Nombre = "Alertas",
+                Imagen = "advertencia.png"
             });
-            Comidas.Add(new MComidas
+            Opciones.Add(new MComidas
             {
                 Nombre = "Tarjetas",
                 Imagen = "tarjeta.png"
             });
+            Opciones.Add(new MComidas
+            {
+                Nombre = "Fechas",
+                Imagen = "calendario.png"
+            });
             BindingContext = this;
+        }
+
+        private void ListView_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            MComidas seleccion = e.Item as MComidas;
+            if(seleccion.Nombre == "Tarjetas")
+            {
+                Navigation.PushAsync(new Tarjeta());
+            }
+            if(seleccion.Nombre == "Alertas")
+            {
+                Navigation.PushAsync(new Alerta());
+            }
+            if (seleccion.Nombre == "Imagen Circular")
+            {
+                Navigation.PushAsync(new ImagenCircular());
+            }
+            if (seleccion.Nombre == "Fechas")
+            {
+                Navigation.PushAsync(new FechaHora());
+            }
         }
     }
 }

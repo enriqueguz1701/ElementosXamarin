@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638145042509712343
+_nugetassetstimestamp=638145707979440272
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=c:\users\usuario\documents\github\elementosxamarin\elementosbasicos\elementosbasicos.android\elementosbasicos.android.csproj
+projectfullpath=c:\users\milag\documents\github\elementosxamarin\elementosbasicos\elementosbasicos.android\elementosbasicos.android.csproj

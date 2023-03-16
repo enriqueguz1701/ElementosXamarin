@@ -3,38 +3,120 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ElementosBasicos.Vistas.Tarjeta" Title="Tarjeta">
     <ContentPage.Content>
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="200"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-            <Frame Margin="10" CornerRadius="5">
-                <Grid>
-                    <!--Como no se ha indicado en qué fila y columna, por defecto se queda en la fila 0 y columna 0-->
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="100" />
-                        <ColumnDefinition Width="*" />
-                    </Grid.ColumnDefinitions>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="*" />
-                        <RowDefinition Height="*" />
-                        <RowDefinition Height="*" />
-                    </Grid.RowDefinitions>
-                    <Image Source="tarjeta.png" Grid.RowSpan="2" Grid.Column="0" Margin="25"/>
-                    <Label Text="Título de este texto"
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="200"/>
+                </Grid.RowDefinitions>
+                <Frame Margin="10" CornerRadius="5" Grid.Row="0" BackgroundColor="Red">
+                    <Grid>
+                        <!--Como no se ha indicado en qué fila y columna, por defecto se queda en la fila 0 y columna 0-->
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Image Source="tarjeta.png" Grid.RowSpan="2" Grid.Column="0" Margin="25"/>
+                        <Label Text="Título de este texto"
                        Grid.Column="1" Grid.Row="0" FontAttributes="Bold"/>
-                    <Label Text="Descripción"
+                        <Label Text="Descripción"
                        Grid.Column="1" Grid.Row="1"
                            VerticalTextAlignment="Start"
                            VerticalOptions="Start"/>
-                    <StackLayout Grid.Column="1" Grid.Row="2" Orientation="Horizontal">
-                        <Button Text="OK"/>
-                        <Button Text="Cancelar" />
-                    </StackLayout>
+                        <StackLayout Grid.Column="1" Grid.Row="2" Orientation="Horizontal">
+                            <Button Text="OK" x:Name="btnVolver" Clicked="btnVolver_Clicked"/>
+                            <Button Text="Cancelar" />
+                        </StackLayout>
 
-                </Grid>
-            </Frame>
-            
-        </Grid>
+                    </Grid>
+                </Frame>
+                <Frame Margin="10" CornerRadius="5" Grid.Row="1">
+                    <Grid>
+                        <!--Como no se ha indicado en qué fila y columna, por defecto se queda en la fila 0 y columna 0-->
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Image Source="tarjeta.png" Grid.RowSpan="2" Grid.Column="0" Margin="25"/>
+                        <Label Text="Título de este texto"
+                       Grid.Column="1" Grid.Row="0" FontAttributes="Bold"/>
+                        <Label Text="Descripción"
+                       Grid.Column="1" Grid.Row="1"
+                           VerticalTextAlignment="Start"
+                           VerticalOptions="Start"/>
+                        <StackLayout Grid.Column="1" Grid.Row="2" Orientation="Horizontal">
+                            <Button Text="OK" x:Name="btnVolver1" Clicked="btnVolver_Clicked"/>
+                            <Button Text="Cancelar" />
+                        </StackLayout>
+
+                    </Grid>
+                </Frame>
+                <Frame Margin="10" CornerRadius="5" Grid.Row="2">
+                    <Grid>
+                        <!--Como no se ha indicado en qué fila y columna, por defecto se queda en la fila 0 y columna 0-->
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Image Source="tarjeta.png" Grid.RowSpan="2" Grid.Column="0" Margin="25"/>
+                        <Label Text="Título de este texto"
+                       Grid.Column="1" Grid.Row="0" FontAttributes="Bold"/>
+                        <Label Text="Descripción"
+                       Grid.Column="1" Grid.Row="1"
+                           VerticalTextAlignment="Start"
+                           VerticalOptions="Start"/>
+                        <StackLayout Grid.Column="1" Grid.Row="2" Orientation="Horizontal">
+                            <Button Text="OK" x:Name="btnVolver2" Clicked="btnVolver_Clicked"/>
+                            <Button Text="Cancelar" />
+                        </StackLayout>
+
+                    </Grid>
+                </Frame>
+                <Frame Margin="10" CornerRadius="5" Grid.Row="3">
+                    <Grid>
+                        <!--Como no se ha indicado en qué fila y columna, por defecto se queda en la fila 0 y columna 0-->
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Image Source="tarjeta.png" Grid.RowSpan="2" Grid.Column="0" Margin="25"/>
+                        <Label Text="Título de este texto"
+                       Grid.Column="1" Grid.Row="0" FontAttributes="Bold"/>
+                        <Label Text="Descripción"
+                       Grid.Column="1" Grid.Row="1"
+                           VerticalTextAlignment="Start"
+                           VerticalOptions="Start"/>
+                        <StackLayout Grid.Column="1" Grid.Row="2" Orientation="Horizontal">
+                            <Button Text="OK" x:Name="btnVolver3" Clicked="btnVolver_Clicked"/>
+                            <Button Text="Cancelar" />
+                        </StackLayout>
+
+                    </Grid>
+                </Frame>
+            </Grid>
+        </ScrollView>
+        
     </ContentPage.Content>
 </ContentPage>

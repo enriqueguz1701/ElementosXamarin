@@ -19,26 +19,13 @@
             <!--<Button Text="Botón 3" Grid.Row="0" Grid.Column="1"/>-->
             <!--
             <Button Text="Botón 4" Grid.Row="1" Grid.Column="1"/>-->
-            <ListView ItemsSource="{Binding Comidas}"
+            <ListView ItemsSource="{Binding Opciones}"
                       HasUnevenRows="True"
-                      SelectionMode="None">
+                      SelectionMode="None"
+                      ItemTapped="ListView_ItemTapped">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <!--<Grid>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="*" />
-                                </Grid.ColumnDefinitions>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="*" />
-                                    <RowDefinition Height="*" />
-                                </Grid.RowDefinitions>
-                                <Button Text="{Binding Nombre}"
-                                        Grid.Row="0"/> --><!--Los binding enlazan datos del frontend con el backend--><!--
-                                <Label Text="{Binding Precio}"
-                                       Grid.Row="1"/>
-
-                            </Grid>-->
                             <Grid>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="40"/>
