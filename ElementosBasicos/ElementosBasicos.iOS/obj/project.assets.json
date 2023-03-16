@@ -1062,29 +1062,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\milag\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Documents\\GitHub\\ElementosXamarin\\ElementosBasicos\\ElementosBasicos.iOS\\ElementosBasicos.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\milag\\Documents\\GitHub\\ElementosXamarin\\ElementosBasicos\\ElementosBasicos.iOS\\ElementosBasicos.iOS.csproj",
       "projectName": "ElementosBasicos.iOS",
-      "projectPath": "C:\\Users\\Usuario\\Documents\\GitHub\\ElementosXamarin\\ElementosBasicos\\ElementosBasicos.iOS\\ElementosBasicos.iOS.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Documents\\GitHub\\ElementosXamarin\\ElementosBasicos\\ElementosBasicos.iOS\\obj\\",
+      "projectPath": "C:\\Users\\milag\\Documents\\GitHub\\ElementosXamarin\\ElementosBasicos\\ElementosBasicos.iOS\\ElementosBasicos.iOS.csproj",
+      "packagesPath": "C:\\Users\\milag\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\milag\\Documents\\GitHub\\ElementosXamarin\\ElementosBasicos\\ElementosBasicos.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\milag\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
@@ -1096,8 +1093,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Usuario\\Documents\\GitHub\\ElementosXamarin\\ElementosBasicos\\ElementosBasicos\\ElementosBasicos.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Documents\\GitHub\\ElementosXamarin\\ElementosBasicos\\ElementosBasicos\\ElementosBasicos.csproj"
+            "C:\\Users\\milag\\Documents\\GitHub\\ElementosXamarin\\ElementosBasicos\\ElementosBasicos\\ElementosBasicos.csproj": {
+              "projectPath": "C:\\Users\\milag\\Documents\\GitHub\\ElementosXamarin\\ElementosBasicos\\ElementosBasicos\\ElementosBasicos.csproj"
             }
           }
         }
